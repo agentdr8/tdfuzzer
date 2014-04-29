@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">TD Fuzzer</string>
+    <string name="launcher_name">TD Fuzzer Settings</string>
+    <string name="settings_header">Device tweaks</string>
+    
+    <string name="dev_iph">iPhone</string>
+    <string name="dev_and">Android</string>
+    <string name="dev_win">Windows Phone</string>
+    
+    <string name="ps_lp1_summ">Choose the device type (default: iPhone)</string>
+	<string name="ps_lp1_title">Device Type</string>
+	
+	
+	<string name="ps_ab_cb1_summ">Enables debug output to be written to Xposed debug.log</string>
+	<string name="ps_ab_cb1_title">Debug</string>
+	
+</resources>

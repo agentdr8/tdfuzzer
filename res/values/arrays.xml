@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dev_names">
+        <item>@string/dev_iph</item>
+        <item>@string/dev_and</item>
+        <item>@string/dev_win</item>
+    </string-array>
+    <string-array name="dev_values">
+        <item>iPhone</item>
+        <item>Android</item>
+        <item>Windows</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <de.robv.android.xposed.library.ui.TextViewPreference
+        android:selectable="false"
+        android:title="@string/settings_header" />
+
+    <de.robv.android.xposed.library.ui.SeparatorPreference height="3" />
+
+    <ListPreference
+        android:defaultValue="iPhone"
+        android:entries="@array/dev_names"
+        android:entryValues="@array/dev_values"
+        android:key="dev_type"
+        android:summary="@string/ps_lp1_summ"
+        android:title="@string/ps_lp1_title" />
+
+    <EditTextPreference
+        android:defaultValue="iPhone 5s"
+        android:dialogTitle="Friendly Name"
+        android:key="dev_friendly_name"
+        android:summary="Specify the device Friendly Name (default: iPhone 5s)"
+        android:title="Friendly Name" />
+    <EditTextPreference
+        android:defaultValue="iPhone6C1"
+        android:dialogTitle="Device Model"
+        android:key="dev_model_name"
+        android:summary="Specify the device model (default: iPhone6C1)"
+        android:title="Device Model" />
+    <EditTextPreference
+        android:defaultValue="7.1.1 11D201"
+        android:dialogTitle="Enter OS version"
+        android:key="dev_os_ver"
+        android:summary="Specify the OS version displayed (default: 7.1.1 11D201)"
+        android:title="OS Version" />
+    <EditTextPreference
+        android:defaultValue="en"
+        android:dialogTitle="Enter Language"
+        android:key="dev_lang"
+        android:summary="Specify the language displayed (default: en)"
+        android:title="Language" />
+    <EditTextPreference
+        android:defaultValue="Apple-iPhone6C1/1104.201"
+        android:dialogTitle="User-Agent String"
+        android:key="dev_user_agent"
+        android:summary="Specify the User-Agent string (default: Apple-iPhone6C1/1104.201)"
+        android:title="User-Agent" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="debug"
+        android:summary="@string/ps_ab_cb1_summ"
+        android:title="@string/ps_ab_cb1_title" />
+
+</PreferenceScreen>
